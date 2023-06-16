@@ -1,0 +1,64 @@
+@import "../../css-config/mixin.scss";
+
+.footer{
+    width: 100%;
+    background-color: navy;
+    .footer-content{
+        padding: 50px 20px;
+        margin: 0 auto;
+        max-width: 1200px;
+        display: flex;
+        flex-flow: wrap;
+        gap: 20px;
+        flex-direction: column;
+        @include md{
+            justify-content: space-between;
+            padding: 50px 0;
+            flex-direction: row;
+            margin-left: 18%;
+        }
+        .col{
+            max-width: 300px;
+            margin-bottom: 15px;
+            .title{
+                margin-bottom: 10px;
+                font-size: 14px;
+                color: aliceblue;
+                @include md{
+                    margin-bottom: 15px;
+                }
+            }
+            .text{
+                color: rgba($color: #ffffff, $alpha: 0.5);
+                font-size: 14px;
+
+            }
+            svg{
+                flex-shrink: 0;
+                margin-top: 4px;
+                margin-right: 10px;
+                color: rgba(240, 248, 255, 0.704);
+            }
+        }
+        
+    }
+    .bottom-bar{
+        border-top: 1px solid white;
+        .bottom-bar-content{
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            font-size: 12px;
+            color: rgba(7, 7, 7, 0.47);
+            background-color: #dcddf3;
+            @include md{
+                padding: 0%;
+                margin: 0 auto;
+                height: 60px;
+                justify-content: center;
+            }
+        }
+    }
+}
+

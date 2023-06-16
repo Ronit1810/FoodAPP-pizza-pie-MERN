@@ -1,0 +1,63 @@
+@import "../../css-config//mixin.scss";
+
+.main-header{
+    
+    background-color: rgb(204, 227, 248);
+    width: 100%;
+    padding: 0 3.5%;
+    z-index: 99;
+    .header-content{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        height: 80px;
+    }
+    .left{
+        display: flex;
+        img{
+            cursor: pointer;
+            height: 80px;
+            mix-blend-mode: multiply;
+        }
+    }
+    .center{
+        display: none;
+        @include md{
+
+            list-style-type: none;
+            display: flex;
+            gap: 30px;
+            margin: 0;
+            li{
+                cursor: pointer;
+                text-transform: uppercase;
+                font-size: 12px;
+                font-weight: 600;
+            }
+        }
+    }
+    .right{
+        display: flex;
+        gap: 15px;
+        .text{
+            cursor: pointer;
+            color: #2f07f2;
+            border-bottom: 1px solid #2f07f2;
+            &:hover{
+                border-bottom: 0;
+            }
+        }
+        .btn{
+            padding: 2px 15px;
+            border: 1px solid rgba($color: #2f07f2, $alpha: 1.0);
+            cursor: pointer;;
+            &:hover{
+                background-color: #000000;
+                color: aliceblue;
+                opacity: 0.8;
+            }
+        }
+    }
+}
