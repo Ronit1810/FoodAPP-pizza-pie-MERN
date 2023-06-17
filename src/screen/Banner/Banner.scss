@@ -3,7 +3,7 @@
 .hero-banner{
     padding: 50px 0;
     position: relative;
-    background-image: linear-gradient(to bottom, rgb(204, 227, 248), rgb(82, 82, 155));
+    background-image: linear-gradient(to top, rgb(204, 227, 248), rgb(82, 82, 155));
     @include  md{
         padding: 40px 0;
         height: calc(100vh - 80px);
@@ -51,11 +51,12 @@
             }
             h1{
                 margin-bottom: 15px;
-                font-size: 25px;
-                text-shadow: 7px 5px 6px navy;
+                font-size: 35px;
+                color: black;
+                // text-shadow: 7px 5px 6px navy;
                 font-family: 'Abril Fatface', cursive;
                 @include md{
-                    font-size: 50px;
+                    font-size: 75px;
                 }
             }
             .span-2{
@@ -96,10 +97,10 @@
             }
             .text{
                 border: 1px solid navy;
-                padding: 0 18px;
+                padding: 5px 30px;
                 cursor: pointer;
-                color: black;
-                background-color: rgba(240, 248, 255, 0.301);
+                color: rgb(251, 246, 246);
+                background-color: rgb(7, 7, 7);
                 &:hover{
                     opacity: 0.8
                 }

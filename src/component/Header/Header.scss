@@ -2,7 +2,7 @@
 
 .main-header{
     
-    background-color: rgb(204, 227, 248);
+    background-color: rgb(82, 82, 155);
     width: 100%;
     padding: 0 3.5%;
     z-index: 99;
@@ -35,6 +35,9 @@
                 text-transform: uppercase;
                 font-size: 12px;
                 font-weight: 600;
+                &:hover{
+                    border-bottom: 1px solid black;
+                }
             }
         }
     }
@@ -43,15 +46,15 @@
         gap: 15px;
         .text{
             cursor: pointer;
-            color: #2f07f2;
-            border-bottom: 1px solid #2f07f2;
+            color: #000000;
+            border-bottom: 1px solid #010101;
             &:hover{
                 border-bottom: 0;
             }
         }
         .btn{
             padding: 2px 15px;
-            border: 1px solid rgba($color: #2f07f2, $alpha: 1.0);
+            border: 1px solid rgba($color: #0f0f0f, $alpha: 1.0);
             cursor: pointer;;
             &:hover{
                 background-color: #000000;
