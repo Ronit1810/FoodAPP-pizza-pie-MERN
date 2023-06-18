@@ -3,12 +3,13 @@
 .hero-banner{
     padding: 50px 0;
     position: relative;
-    background-image: linear-gradient(to top, rgb(204, 227, 248), rgb(82, 82, 155));
+    background-image: linear-gradient(to top, rgb(194, 222, 248), rgba(250, 248, 248, 0.718));
     @include  md{
         padding: 40px 0;
         height: calc(100vh - 80px);
     }
     .banner-content{
+        
         height: 100%;
         display: flex;
         justify-content: flex-end;
@@ -36,7 +37,7 @@
             .span-1{
                 width: 120px;
                 position: absolute;
-                top: 290px;
+                top: 250px;
                 left: 130px;
                 border-radius: 10px;
                 border-bottom: 2px solid navy;
@@ -67,7 +68,7 @@
             position: relative;
             z-index: 9;
             width: 250px;
-            margin-bottom: 100px;
+            margin-bottom: 60px;
             @include md{
                 width: 500px;
             }
