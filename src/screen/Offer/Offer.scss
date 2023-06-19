@@ -4,7 +4,7 @@
     padding: 50px 0;
     position: relative;
     margin: 0;
-    background-image: linear-gradient(to bottom, rgb(194, 222, 248), rgba(250, 248, 248, 0.718));
+    background-image: linear-gradient(to bottom, rgb(194, 222, 248), rgb(255, 255, 255));
     @include md{
         padding: 0px 0;
         height: calc(100vh - 120px);
