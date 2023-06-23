@@ -6,6 +6,10 @@ import Header from '../src/component/Header/Header';
 import Home from './screen/Home/Home';
 import SingleDish from './screen/Dish/SingleDish/SingleDish';
 import Newsletter from './screen/Newsletter/Newsletter';
+import Login from './screen/Login/Login';
+import Register from './screen/Login/registeration/Register';
+
+
 
 
 function App() {
@@ -15,6 +19,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/Dish' element={<SingleDish />} />
+        <Route path='/Login' element={<Login />} />
+        <Route path='/Register' element={<Register />} />
       </Routes>
       <Newsletter />
       <Footer />

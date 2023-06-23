@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Momo Mia Pizza-Non Veg",
+        "img": "https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80",
+        "description": "Epic combination of signature pan crust, delicious chicken momos topped with spicy Schezwan sauce, Schezwan meatballs, onion, capsicum & 100% mozzarella"
+    },
+    {
+        "name": "Schezwan Margherita",
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/schezwan-margherita.4371d9483546db47a97c5503ccad0c2f.1.jpg",
+        "description": "Your very own Margherita, now with a spicy twist! Loaded with our signature spicy schezwan sauce & 100% mozzarella cheese."
+    },
+    {
+        "name": "Mexican Fiesta",
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/mexican-fiesta.559a1961ca021b8fb90367c6918e50f1.1.jpg",
+        "description": "Flavourful mix of red capsicum, green capsicum, jalapeno, onion, black olives, sweet corn and 100% mozzarella Cheese with a signature spice sprinkle & our flavourful pan sauce."
+    },
+    {
+        "name": "Ultimate Tandoori Veggie",
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/ultimate-tandoori-veggie.059dfd9b3f088818ed725872d98d20b6.1.jpg",
+        "description": "An ultimate combination of your favourite veggies- onion, green capsicum, mushroom, tomato, spicy jalapeno on tandoori sauce, topped with 100% mozzarella cheese & generous drizzle of mint mayo."
+    },
+    {
+        "name": "Only Cheesy",
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/only-cheesy-pan-personal.951dbe6ee07dafc48e04fe9a1bbe4ddb.1.jpg",
+        "description": "Pizza topped with cheesy dressing and mozzarella cheese for that extraaa cheesy flavor."
+    },
+    {
+        "name": "Mazedar Makhni Paneer",
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/mazedar-makhni-paneer.cb3150d2be9cb8dcd248be70921c5196.1.jpg",
+        "description": "A treat for all makhni lovers. Spiced paneer, onion, juicy red bell peppers with our new flavourful makhni sauce, topped with 100% mozzarella cheese and buttery spice sprinkle"
+    },
+    {
+        "name": "Cheezy Mushroom Magic",
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/cheezy-mushroom-magic.40d9989d4e84c2d302a338da3dfa7140.1.jpg",
+        "description": "A new combination with creamy mushroom sauce, chunky black olives, spicy jalapeno, juicy sweet corn, mushroom and 100% mozzarella cheese with garlic sprinkle for extra flavour hit."
+    },
+    {
+        "name": "Margherita",
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg",
+        "description": "Pizza topped with our herb-infused signature pan sauce and 100% mozzarella cheese. A classic treat for all cheese lovers out there!"
+    },
+    {
+        "name": "Corn & Cheese",
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/corn.f8baa08ad7f607f1de30f96bb9245b50.1.jpg",
+        "description": "A combination of juicy Sweet Corn & 100% mozzarella cheese with flavourful signature pan sauce."
+    },
+    {
+        "name": "Country Feast",
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/country-feast.e4032b4f076b2f961cac86d15af1a0f5.1.jpg",
+        "description": "Loaded with Herbed Onion & Green capsicum, Sweet Corn, Tomato with signature pan sauce and 100% Mozzarella cheese. It's a feast you can't refuse."
+    }
+]
