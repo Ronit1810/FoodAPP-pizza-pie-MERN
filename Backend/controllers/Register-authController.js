@@ -1,24 +1,26 @@
 import { hashPasssword } from "../helpers/authHelper.js";
 import userModel from "../models/userModel.js";
+// import { Jwt } from "jsonwebtoken";
+
 
 const registerController = async(req, res) => {
     try {
         const {name,email,phone,address,password} = req.body
         //validation
         if (!name) {
-            return res.send({error:"name is Required"})
+            return res.send({message:"name is Required"})
         }
         if (!email) {
-            return res.send({error:"email is Required"})
+            return res.send({message:"email is Required"})
         }
         if (!phone) {
-            return res.send({error:"phone is Required"})
+            return res.send({message:"phone is Required"})
         }
         if (!address) {
-            return res.send({error:"address is Required"})
+            return res.send({message:"address is Required"})
         }
         if (!password) {
-            return res.send({error:"password is Required"})
+            return res.send({message:"password is Required"})
         }
 
         //check user
@@ -26,7 +28,7 @@ const registerController = async(req, res) => {
         //existing user
         if (existingUser) {
             return res.status(200).send({
-                success: true,
+                success: false,
                 message: "Already Register Please Login",
             })
         }

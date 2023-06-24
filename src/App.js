@@ -9,6 +9,8 @@ import Newsletter from './screen/Newsletter/Newsletter';
 import Login from './screen/Login/Login';
 import Register from './screen/Login/registeration/Register';
 
+import { Toaster } from 'react-hot-toast';
+
 
 
 
@@ -24,6 +26,7 @@ function App() {
       </Routes>
       <Newsletter />
       <Footer />
+      <Toaster />
     </BrowserRouter>
   );
 }
