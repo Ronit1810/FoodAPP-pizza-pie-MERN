@@ -4,9 +4,11 @@ import { AiOutlineSend } from "react-icons/ai";
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaPinterest} from "react-icons/fa";
 import dish from "../../../assets/pizza-3.jpeg"
 import axios from "axios";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
+import { toast } from "react-hot-toast";
 
 const SingleDish = () => {
+    const Navigate = useNavigate()
     const [singleDishItem, setSingleDishItem] = useState({});
     const params = useParams()
     // const callsingleapi = (e) => {
@@ -58,10 +60,10 @@ const SingleDish = () => {
                                 <div className="buy">
                                     <div className="quantity-btn">
                                         <span>-</span>
-                                        <span>5</span>
+                                        <span>1</span>
                                         <span>+</span>
                                     </div>
-                                    <div className="btn">
+                                    <div className="btn" onClick={() => {Navigate('/') ; toast.success("Thank You") ; toast.success("Order Placed Successfully")}}>
                                         Place Order
                                         <AiOutlineSend size={20} />
                                     </div>

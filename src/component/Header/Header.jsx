@@ -4,6 +4,7 @@ import logo from "../../assets/food-app logo.png"
 import { useAuth } from "../context/auth"
 import { toast } from "react-hot-toast"
 
+
 import { AiOutlineShoppingCart } from  "react-icons/ai";
 
 const Header = () => {
@@ -27,7 +28,7 @@ const Header = () => {
                 </div>
                 <ul className="center">
                     <li onClick={() => Navigate("/")}>Home</li>
-                    <li>Menu</li>
+                    <li onClick={() => Navigate("/Menu")}>Menu</li>
                     <li>About</li>
                     <li>contact</li>
                 </ul>

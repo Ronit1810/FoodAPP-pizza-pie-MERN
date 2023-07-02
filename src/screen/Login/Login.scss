@@ -1,0 +1,57 @@
+@import "../../css-config/mixin.scss";
+
+.main-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0;
+    @include md{
+        padding-bottom: 130px;
+    }
+    .profile{
+        svg{
+            width: 100%;
+            height: 60px;
+            margin-bottom: 50px;
+            @include md{
+                height: 90px;
+                width: 120px;
+            }
+            
+        }
+    }
+    .form{
+        
+            background-color: rgba(0, 0, 128, 0.037);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 20px;
+            border: 1px solid navy;
+            padding: 20px 0;
+            width: 90%;
+            border-radius: 10px;
+            @include md{
+                width: 50%;
+            }
+            .detail{
+                display: flex;
+                align-items: center;
+                label{
+                    padding: 0 10px;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+                input{
+                    width: 100%;
+                    
+                    @include md{
+                        width: 300px;
+                        height: 35px;
+                    }
+                }
+            }
+    }
+}

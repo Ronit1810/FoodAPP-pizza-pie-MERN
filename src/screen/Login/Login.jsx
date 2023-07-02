@@ -40,16 +40,19 @@ const Login = () => {
             <div className="profile">
                 <CgProfile />
             </div>
-            <div className="detail">
-                <label>User</label>
-                <input type="text" placeholder="enter your email address.." required value={email} onChange={(e) => setEmail(e.target.value)} />
-            </div>
-            <div className="detail">
-                <label>Password</label>
-                <input type="password" placeholder="enter your password.." required value={password} onChange={(e) => setPassword(e.target.value)} />
-            </div>
-            <div className="btn">
-                <span onClick={handleclick}>Login</span>
+            <div className="form">
+
+                <div className="detail">
+                    <label>User</label>
+                    <input type="text" placeholder="enter your email address.." required value={email} onChange={(e) => setEmail(e.target.value)} />
+                </div>
+                <div className="detail">
+                    <label>Password</label>
+                    <input type="password" placeholder="enter your password.." required value={password} onChange={(e) => setPassword(e.target.value)} />
+                </div>
+                <div className="btn">
+                    <span onClick={handleclick}>Login</span>
+                </div>
             </div>
         </div>
     )

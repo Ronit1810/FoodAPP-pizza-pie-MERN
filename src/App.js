@@ -12,6 +12,7 @@ import Register from './screen/Login/registeration/Register';
 
 import { Toaster } from 'react-hot-toast';
 import CartItem from './screen/Cart/CartItem';
+import Menu from './screen/Menu/Menu';
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='Menu' element={<Menu />} />
         <Route path='/cart' element={<CartItem />} />
         <Route path='/Dish/:id' element={<SingleDish />} />
         <Route path='/Login' element={<Login />} />
